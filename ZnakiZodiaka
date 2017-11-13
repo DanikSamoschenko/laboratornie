@@ -1,0 +1,52 @@
+// Zodiacsigns.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a, b;
+	cout << "Сhoose your zodiac sign" << endl;
+	cout << "1. Aquarius" << endl;
+	cout << "2. Pisces" << endl;
+	cout << "3. Aries" << endl;
+	cout << "4. Taurus" << endl;
+	cout << "5. Gemini" << endl;
+	cout << "6. Cancer" << endl;
+	cout << "7. Leo" << endl;
+	cout << "8. Virgo" << endl;
+	cout << "9. Libra" << endl;
+	cout << "10. Scorpio" << endl;
+	cout << "11. Sagittarius" << endl;
+	cout << "12. Capriorn" << endl;
+	cin >> a;
+	cout << "Сhoose your companion zodiac sign" << endl;
+	cout << "1. Aquarius" << endl;
+	cout << "2. Pisces" << endl;
+	cout << "3. Aries" << endl;
+	cout << "4. Taurus" << endl;
+	cout << "5. Gemini" << endl;
+	cout << "6. Cancer" << endl;
+	cout << "7. Leo" << endl;
+	cout << "8. Virgo" << endl;
+	cout << "9. Libra" << endl;
+	cout << "10. Scorpio" << endl;
+	cout << "11. Sagittarius" << endl;
+	cout << "12. Capriorn" << endl;
+	cin >> b;
+
+	if (a == 1 && b == 1) {
+		cout << "Truly amazing" << endl;
+	}
+	else if (a == 1 && b == 2) {
+		cout << "Can lead to tears" << endl;
+	}
+	else if (a == 2 && b == 1) {
+		cout << "Tace care" << endl;
+	}
+	// and so on...
+	system("pause");
+    return 0;
+}
