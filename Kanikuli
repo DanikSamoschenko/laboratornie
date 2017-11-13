@@ -1,0 +1,144 @@
+/ Holidays.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	int a;
+	cout << "Select holiday in November." << endl;
+	cout << "if you want to select 1 November, please press 1." << endl;
+	cout << "if you want to select 2 November, please press 2." << endl;
+	cout << "if you want to select 3 November, please press 3." << endl;
+	cout << "if you want to select 4 November, please press 4." << endl;
+	cout << "if you want to select 5 November, please press 5." << endl;
+	cout << "if you want to select 6 November, please press 6." << endl;
+	cout << "if you want to select 7 November, please press 7." << endl;
+	cout << "if you want to select 8 November, please press 8." << endl;
+	cout << "if you want to select 9 November, please press 9." << endl;
+	cout << "if you want to select 10 November, please press 10." << endl;
+	cout << "if you want to select 11 November, please press 11." << endl;
+	cout << "if you want to select 12 November, please press 12." << endl;
+	cout << "if you want to select 13 November, please press 13." << endl;
+	cout << "if you want to select 14 November, please press 14." << endl;
+	cout << "if you want to select 15 November, please press 15." << endl;
+	cout << "if you want to select 16 November, please press 16." << endl;
+	cout << "if you want to select 17 November, please press 17." << endl;
+	cout << "if you want to select 18 November, please press 18." << endl;
+	cout << "if you want to select 19 November, please press 19." << endl;
+	cout << "if you want to select 20 November, please press 20." << endl;
+	cout << "if you want to select 21 November, please press 21." << endl;
+	cout << "if you want to select 22 November, please press 22." << endl;
+	cout << "if you want to select 23 November, please press 23." << endl;
+	cout << "if you want to select 24 November, please press 24." << endl;
+	cout << "if you want to select 25 November, please press 25." << endl;
+	cout << "if you want to select 26 November, please press 26." << endl;
+	cout << "if you want to select 27 November, please press 27." << endl;
+	cout << "if you want to select 28 November, please press 28." << endl;
+	cout << "if you want to select 29 November, please press 29." << endl;
+	cout << "if you want to select 30 November, please press 30." << endl;
+	cin >> a;
+
+	switch (a)
+	{
+	case 1:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 2:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 3:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 4:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 5:
+		cout << "5 ноября 2017   - День работников гражданской авиации" << endl;
+		break;
+	case 6:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 7:
+		cout << "День Октябрьской революции 1917 года" << endl;
+		break;
+	case 8:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 9:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 10:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 11:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 12:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 13:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 14:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 15:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 16:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 17:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 18:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 19:
+		cout << "19 ноября 2017 - День работников сельского хозяйства и перерабатывающей промышленности агропромышленного комплекса" << endl;
+		cout << "19 ноября 2017 - День ракетных войск и артиллерии" << endl;
+		break;
+	case 20:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 21:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 22:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 23:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 24:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 25:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 26:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 27:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 28:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 29:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+	case 30:
+		cout << "Сегодня нет важого праздника. " << endl;
+		break;
+
+	default:
+		break;
+	}
+	system("pause");
+	return 0;
+}
