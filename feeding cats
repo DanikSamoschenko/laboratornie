@@ -1,0 +1,132 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+	int a, b;
+	cout << "Which cat of 10 do you want to feed?" << endl;
+	cin >> a;
+
+	switch (a)
+	{
+	case 1:
+		cout << "Cat1. Eats only meet. To feed him with meat press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+
+	case 2:
+		cout << "Cat2. Eats only cooked meat. To feed him with cooked meat press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	case 3:
+		cout << "Cat3. Eats only fish. To feed him with fish press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	case 4:
+		cout << "Cat4. Eats only cooked fish. To feed him with cooked fish press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	case 5:
+		cout << "Cat5. Eats only whiskas. To feed him with whiskas press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	case 6:
+		cout << "Cat6. Eats only kitekat. To feed him with kitekat press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	case 7:
+		cout << "Cat7. Eats only mouse. To feed him with mouse press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	case 8:
+		cout << "Cat8. Eats only sausages. To feed him with sausages press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	case 9:
+		cout << "Cat9. Eats only hot-dog's sausages. To feed him with hot-dog's sausages press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	case 10:
+		cout << "Cat10. Eats only milk. To feed him with milk press 1." << endl;
+		cin >> b;
+		if (b == 1)
+		{
+			cout << "The cat is fed. " << endl;
+		}
+		else {
+			cout << "The cat isn't fed. " << endl;
+		}
+		break;
+	default:
+		cout << "select one of 10 cats" << endl;
+		break;
+	}
+
+	system("pause");
+    return 0;
+}
