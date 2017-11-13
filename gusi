@@ -1,0 +1,23 @@
+#include <iostream> 
+#include <cstdlib> 
+using namespace std;
+
+
+int main()
+{
+	int a;
+	cout << "Goose, how are you? if you feel good, then press 1, if not, then press 2." << endl;
+	cin >> a;
+  
+	if (a == 1) {
+		cout << "Goose is happy." << endl;
+	}
+	else if (a == 2) {
+		cout << "Goose is unhappy." << endl;
+	}
+	else {
+		cout << "I don't know." << endl;
+	}
+	system("pause");
+	return 0;
+}
